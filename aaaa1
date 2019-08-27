@@ -2,6 +2,7 @@ Node {
 Stage (‘SCM checkout’){
 git ‘https://github.com/buddaprem/creat/new/master’
 }
+++++
 Stage (‘complie-Package’){
 Shell ‘mvn packge’
 }
